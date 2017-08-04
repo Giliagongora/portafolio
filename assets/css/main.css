@@ -1,7 +1,16 @@
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+
 /* navbar */
 nav{
-	  position: fixed;
-
+	position: fixed;
+}
+.navbar-toggler{
+	color: white;
 }
 nav.bg-faded {
     background-color: rgba(53,53,53,0.5);
@@ -9,6 +18,8 @@ nav.bg-faded {
 #abtn {
     color: white;
     padding-left: 50%;
+    font-size: 200%;
+    margin-left: 400%;
 }
 .fixed-top{
 	justify-content: center;
@@ -18,13 +29,30 @@ div.icons{
 	color: white;
 	font-size: 500%;
 }
+.navbar-toggleable-md .navbar-collapse {
+    width: 0%;
+}
+
+
+
 /* personal */
 .personal{
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
 .personal img{
-	width: 100px;
+	width: 150px;
+	margin: 0 auto;
+	padding-bottom: 5%;
+}
+.personal p{
+	display: flex;
+	padding: 0% 5%;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: center;
+	font-weight: 300;
+	font-size: 150%;
 }
 /* presentacion */
 .presentacion{
@@ -41,15 +69,18 @@ div.icons{
 .col-centered{
     float: left;
     margin: 0 auto;
-    padding-right: 5%;
+
 }
 .tools{
 	background-color: white;
 }
 .tools h1{
 	padding: 6% 0% 6% 0%;
+	font-weight: 900;
+	font-size: 700%;
 }
 .tools i{
-	padding: 50%;
 	font-size: 7rem;
+	text-decoration: none;
+	line-height: 2;
 }
