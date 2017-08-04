@@ -16,23 +16,24 @@
 	
 	<!-- navbar -->
 	
-	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top ">
 	  	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	 	 </button>
-	 	 <a id="letter.nav" class="navbar-brand" href="#">Navbar</a>
-
+	 	 <!--
+	 	 <a id="abtn" class="navbar-brand" href="#">Navbar</a>
+		-->
 	 	 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	   		 <ul class="navbar-nav mr-auto">
+	   		 <ul class="navbar-nav mr-auto ">
 	   		    <li class="nav-item active">
-	    	    <a id="letter.nav" class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+	    	    <a id="abtn" class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
 	    	    </li>
 	     		<li class="nav-item">
-	      		<a id="letter.nav" class="nav-link" href="#">Home</a>
+	      		<a id="abtn" class="nav-link active" href="#">Home</a>
 	      		
 	     		</li>
 	     		<li class="nav-item">
-	      		<a id="letter.nav"  class="nav-link" href="#">Home</a>
+	      		<a id="abtn" class="nav-link active" href="#">Home</a>
 	      		</li>
 	    	</ul>
 	  </div>
@@ -42,8 +43,28 @@
 	<section class="presentacion">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+					<div  class="icons">
+						<h1  class=" text-center">
+							<i class="fa fa-chevron-left" aria-hidden="true"></i>
+							 /
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+		<!-- información personal-->
+	<section class="personal">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+					<img src="assets/img/user-512.png" alt="">
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, cupiditate, hic. Sint repellat quod officia quasi tenetur dolorem voluptas itaque ad recusandae dolorum ab est beatae, fugit rem doloremque, impedit.</p>
 				</div>
 			</div>
 		</div>
@@ -53,18 +74,23 @@
 	<section class="tools">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" >
 					<h1 class="text-center">Tools</h1>
 				</div>
 				<div class="row">
-					<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-						<i class="devicon-css3-plain"></i>
-					</div>
-					<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-						<i class="devicon-github-plain"></i>
-					</div>
-					<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-						<i class="devicon-git-plain"></i>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 offset-lg-6" >
+						<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 col-centered">
+							<a href=""><i class="devicon-css3-plain"></i></a>
+						</div>
+						<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 col-centered">
+							<i class="devicon-github-plain"></i>
+						</div>
+						<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 col-centered">
+							<i class="devicon-git-plain"></i>
+						</div>
+						<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 col-centered">
+							<i class="devicon-git-plain"></i>
+						</div>
 					</div>
 				</div>
 

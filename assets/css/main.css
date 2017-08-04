@@ -1,16 +1,31 @@
 /* navbar */
-.navbar{
+nav{
 	  position: fixed;
 
 }
 nav.bg-faded {
-    background-color: rgba(247,247,247,0.1);
+    background-color: rgba(53,53,53,0.5);
 }
-#letter-nav {
+#abtn {
+    color: white;
+    padding-left: 50%;
+}
+.fixed-top{
+	justify-content: center;
+}
+div.icons{
+	padding-top: 39%;
 	color: white;
+	font-size: 500%;
 }
-
-
+/* personal */
+.personal{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.personal img{
+	width: 100px;
+}
 /* presentacion */
 .presentacion{
 	background-image: url(../img/delf-renniel-rivera-273007.jpg);
@@ -23,6 +38,11 @@ nav.bg-faded {
 }
 
 /* Tools */
+.col-centered{
+    float: left;
+    margin: 0 auto;
+    padding-right: 5%;
+}
 .tools{
 	background-color: white;
 }
@@ -30,5 +50,6 @@ nav.bg-faded {
 	padding: 6% 0% 6% 0%;
 }
 .tools i{
+	padding: 50%;
 	font-size: 7rem;
 }
