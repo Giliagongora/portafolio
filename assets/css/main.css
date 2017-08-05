@@ -22,23 +22,41 @@ nav.bg-faded {
 .fixed-top{
 	justify-content: center;
 }
-div.icons{
 
-	padding-top: 39%;
-	color: white;
-	font-size: 500%;
-	
-}
 .navbar-toggleable-md .navbar-collapse {
     width: 0%;
 }
 
 
+/* presentacion */
+.home{
+	background-image: url(../img/delf-renniel-rivera-273007.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 800px;
+	margin-top: -10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-/* personal */
+div.icons, h1{
+
+	padding-top: 68%;
+	color: white;
+	font-size: 500%;
+}
+.home h1{
+	font-size: 100%;
+}
+
+/* about*/
 .personal{
 	padding-top: 5%;
 	padding-bottom: 5%;
+	background-color: white;
 }
 .personal img{
 	width: 150px;
@@ -53,16 +71,7 @@ div.icons{
 	vertical-align: center;
 	font-weight: 300;
 	font-size: 150%;
-}
-/* presentacion */
-.presentacion{
-	background-image: url(../img/delf-renniel-rivera-273007.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 700px;
-	margin-top: -10%;
+	color: black;
 }
 
 /* Tools */
@@ -121,12 +130,16 @@ div.icons{
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 300px;
-	margin-top: -10%;
+	height: 650px;
+	margin-top: 0%;
+	display: flex;
+	align-items: center;
 }
-.oncontc{
-	background-color: (210,205,214,0.5); 
-	width: 100%;
-	height: 50px;
-	position: relative;
+.datos{
+	padding-top: 40%;
+}
+.contacto h3, p{
+	color: white;
+	font-weight: 300;
+	font-size: 200%;
 }
