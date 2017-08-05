@@ -17,17 +17,17 @@ nav.bg-faded {
 }
 #abtn {
     color: white;
-    padding-left: 50%;
-    font-size: 200%;
-    margin-left: 400%;
+    font-size: 150%;
 }
 .fixed-top{
 	justify-content: center;
 }
 div.icons{
+
 	padding-top: 39%;
 	color: white;
 	font-size: 500%;
+	
 }
 .navbar-toggleable-md .navbar-collapse {
     width: 0%;
@@ -76,11 +76,57 @@ div.icons{
 }
 .tools h1{
 	padding: 6% 0% 6% 0%;
-	font-weight: 900;
-	font-size: 700%;
+	font-weight: 500;
+	font-size: 600%;
 }
 .tools i{
 	font-size: 7rem;
 	text-decoration: none;
 	line-height: 2;
+	color: rgba(79,27,63,0.81);
+}
+.tools a{
+	color: transparent;
+	text-decoration: none;
+	height: 100px;
+}
+.tools a:hover {
+    color: rgba(210,205,214,0.0);
+    text-decoration: underline;
+}
+
+/* woorks */
+
+.work{
+	padding: 1% 1% 15% 1%;
+}
+.work h1{
+	padding-top: 5%;
+	padding-bottom: 7%;
+	font-weight: 500;
+	font-size: 600%;
+}
+.work a img{
+	width: 100%;
+	height: auto;
+	padding-top: 7%;
+	margin-bottom: 7%;
+}
+
+
+/* contacto */
+.contacto{
+	background-image: url(../img/rodion-kutsaev-48565.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	margin-top: -10%;
+}
+.oncontc{
+	background-color: (210,205,214,0.5); 
+	width: 100%;
+	height: 50px;
+	position: relative;
 }
