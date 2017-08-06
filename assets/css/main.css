@@ -1,8 +1,8 @@
 *{
 	font-family: 'Raleway', sans-serif;
+	padding: 0;
+	margin: 0;
 }
-
-
 
 
 /* navbar */
@@ -44,7 +44,7 @@ nav.bg-faded {
 
 div.icons, h1{
 
-	padding-top: 68%;
+	padding-top: 73%;
 	color: white;
 	font-size: 500%;
 }
@@ -62,6 +62,8 @@ div.icons, h1{
 	width: 150px;
 	margin: 0 auto;
 	padding-bottom: 5%;
+	border-radius: 100px;
+	box-shadow: 10px 10px 15px #d0d0d0;
 }
 .personal p{
 	display: flex;
@@ -118,9 +120,11 @@ div.icons, h1{
 .work a img{
 	width: 100%;
 	height: auto;
-	padding-top: 7%;
 	margin-bottom: 7%;
-}
+	border-radius: 20px 20px 20px 20px;
+	border: 5px solid #f1f1f1;
+	box-shadow: 10px 10px 15px #d0d0d0;
+}	
 
 
 /* contacto */
@@ -136,10 +140,23 @@ div.icons, h1{
 	align-items: center;
 }
 .datos{
-	padding-top: 40%;
+	padding-top: 0%;
 }
 .contacto h3, p{
 	color: white;
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 200%;
+}
+.contacto p{
+	color: white;
+	font-weight: 300;
+	font-size: 150%;
+}
+.contacto #backcontacto{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(79,27,63,0.2);
+	width: 100%;
+	height: 650px;
 }
