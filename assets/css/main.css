@@ -1,141 +1,89 @@
 *{
 	font-family: 'Raleway', sans-serif;
-	padding: 0;
-	margin: 0;
+	padding: 0%;
+	margin: 0%;
 }
 
+/* NAVBAR */
 
-/* navbar */
 nav{
-	position: fixed;
+	background-color: #61033f;
 }
-.navbar-toggler{
-	color: white;
-}
-nav.bg-faded {
-    background-color: rgba(53,53,53,0.5);
-}
-#abtn {
-    color: white;
-    font-size: 150%;
-}
-.fixed-top{
-	justify-content: center;
-}
-
-.navbar-toggleable-md .navbar-collapse {
-    width: 0%;
-}
-
-
-/* presentacion */
-.home{
-	background-image: url(../img/delf-renniel-rivera-273007.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 800px;
-	margin-top: -10%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-div.icons, h1{
-	/*padding-top: 60%;*/
-	color: white;
-	font-size: 500%;
-}
-.home h1{
-	font-size: 100%;
-}
-.home .thinkone{
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;	
-}
-.home h4{
-	font-size: 150%;
-	width: 100%;
-	color: white;
-	font-weight: 500;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-}
-
-/* about*/
-.personal{
-	padding-top: 2%;
-	padding-bottom: 2%;
-	background-color: white;
-}
-.personal h1{
-	padding: 6% 0% 6% 0%;
-	font-weight: 500;
-	font-size: 500%;	
-}
-.personal img{
-	width: 200px;
-	margin: 0 auto;
-	border-radius: 25px;
-	box-shadow: 10px 10px 15px #d0d0d0;
-	margin: 5% 0% 5% 0%;
-}
-.personal p{
-	display: flex;
-	padding: 0% 5%;
-	margin-top: auto;
-	margin-bottom: auto;
-	vertical-align: center;
+nav .brand-logo{
 	font-weight: 300;
-	font-size: 150%;
+
+}
+#mobile-demo{
+	width: 50%;
+	text-align: center;
+}
+.inicio{
+	height: -40px;
+	width: auto;
+	background-position-y: 10px;
+}
+
+ul.slides{
+	height: 540px;
+	background-position-y: 10px;
+}
+#sidenav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 997;
+    will-change: opacity;
+}
+
+/* Perfil */
+
+.gongora{
+	margin: 5% 0 5% 0;
+	display: flex;
+}
+.gongora h3 , p{
+	font-weight: 500;
+}
+#fotoPerfil{
+	height: 200px;
+	width: auto;
+	border-radius: 30px;
+	justify-content: center;
+	align-content: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.parrafo h3{
+	font-size: 100%;
+	font-weight: 700;
+	text-align: center;
+}
+.parrafo p{
 	color: black;
+	font-weight: 300;
 }
+ 
+/* Herramientas */
 
-/* Tools */
-.col-centered{
-    float: left;
-    margin: 0 auto;
-
+div .row #centrar{
+	display: flex;
+	justify-content: center;
 }
-.tools{
-	background-color: white;
-}
-.tools h1{
-	padding: 6% 0% 6% 0%;
+.herramientas h3{
 	font-weight: 500;
+}
+.herramientas a{
 	font-size: 500%;
 }
-.tools i{
-	font-size: 7rem;
-	text-decoration: none;
-	line-height: 2;
-	color: rgba(79,27,63,0.81);
-}
-.tools a{
-	color: transparent;
-	text-decoration: none;
-	height: 100px;
-}
-.tools a:hover {
-    color: rgba(210,205,214,0.0);
-    text-decoration: underline;
-}
 
-/* woorks */
-
-.work{
-	padding: 1% 1% 5% 1%;
+/* PORTAFOLIO */
+.portafolio{
+	margin-bottom: 5%;
 }
-.work h1{
-	padding-top: 5%;
-	padding-bottom: 7%;
-	font-weight: 500;
-	font-size: 500%;
-}
-.work a img{
+.portafolio a img{
 	width: 100%;
 	height: auto;
 	margin-bottom: 7%;
@@ -143,52 +91,20 @@ div.icons, h1{
 	border: 5px solid #f1f1f1;
 	box-shadow: 10px 10px 15px #d0d0d0;
 }
-.work button{
-	margin-bottom: 15%;
-}	
-
-
-/* contacto */
-.contacto{
-	background-image: url(../img/rodion-kutsaev-48565.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 650px;
-	margin-top: 0%;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
+.portafolio h3{
+	font-weight: 500;
 }
-.datos{
-	padding-top: 0%;
+.space{
+	margin-bottom: 4%;
+	margin-top: 4%;
+}
+
+/* COntacto */
+.contacto{
+	background-color: black;
 	padding-bottom: 5%;
 }
-
-.contacto h1{
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	padding-top: 45%;
-	color: white;
+.contacto h3 , p{
 	font-weight: 500;
-	font-size: 200%;	
-}
-.contacto p{
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
 	color: white;
-	font-weight: 500;
-	font-size: 150%;
-}
-.contacto #backcontacto{
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	background-color: rgba(79,27,63,0.2);
-	width: 100%;
-	height: 650px;
-
 }
