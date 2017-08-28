@@ -77,6 +77,7 @@ div .row #centrar{
 }
 .herramientas a{
 	font-size: 500%;
+	color: #1f2f38;
 }
 
 /* PORTAFOLIO */
@@ -100,11 +101,33 @@ div .row #centrar{
 }
 
 /* COntacto */
-.contacto{
-	background-color: black;
-	padding-bottom: 5%;
+.contacto h3{
+	font-weight: 400;
 }
-.contacto h3 , p{
-	font-weight: 500;
-	color: white;
-} 
+.page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background-color: #000000;
+}
+.page-footer #alinear{
+	display: inline-flex;
+	width: 100%;
+}
+.page-footer i.material-icons{
+	margin-right: 2%;
+}
+.page-footer li a i{
+	background-color: white;
+	color: black;
+	margin-bottom: 1%;
+}
+.page-footer li {
+	margin-bottom: 3%;
+}
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed; /* <-- Look here */
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
