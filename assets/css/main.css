@@ -38,6 +38,13 @@ ul.slides{
     will-change: opacity;
 }
 
+/* INICIO */
+
+#inicio{
+	height: 500px;
+}
+
+
 /* Perfil */
 
 .gongora{
