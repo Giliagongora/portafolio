@@ -15,7 +15,10 @@ $(document).ready(function(){
       $('.slider').slider({full_width: true});
     });
 
-
+//sliders 
+$(document).ready(function(){
+  $('.slider').slider();
+});
 
 
 });

@@ -40,8 +40,36 @@ ul.slides{
 
 /* INICIO */
 
-#inicio{
-	height: 500px;
+
+.inicio{
+	padding-top: 1%;
+	height: 600px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#logo{
+	height: 40%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#back{
+
+	height: 300px;
+	width: auto;
+}
+div p{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+#centerall{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
@@ -55,7 +83,7 @@ ul.slides{
 	font-weight: 500;
 }
 #fotoPerfil{
-	height: 200px;
+	height: 250px;
 	width: auto;
 	border-radius: 30px;
 	justify-content: center;
@@ -71,6 +99,9 @@ ul.slides{
 .parrafo p{
 	color: black;
 	font-weight: 300;
+}
+.parrafo{
+	    padding: 0% 9% 0% 0%;
 }
  
 /* Herramientas */
