@@ -1,24 +1,33 @@
+/*Menu top mobile*/
 
-$(document).ready(function(){
 
-// funcionalidad al navbar
-  $('.button-collapse').sideNav({
-      menuWidth: 170, // Default is 300
-      edge: 'left', // Choose the horizontal origin
-      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      draggable: true, // Choose whether you can drag to open on touch screens, 
-    }
-  );
+/*$(".iconBtn").click(function(e){
+	e.preventDefault();
+	$(".top-mobile ul").show();
+	$(".top-mobile ul").hide();
 
-//slider
-    $(document).ready(function(){
-      $('.slider').slider({full_width: true});
+});*/
+
+$(document).ready(function(){ 
+
+	$(".iconBtn").click(function(e){
+		e.preventDefault();
+		$(".top-mobile ul").slideToggle(700);
+
+	});
+/*	$(!$(".top-mobile ul")).blur(function(){
+		$(this).hide();
+	})*/
+/*	$(!$(".top-mobile ul li")).blur(function(){
+		$(this).hide();
+	});*/
+
+    $(window).scroll(function(){                          
+        if ($(this).scrollTop()) {
+            $('.top-mobile ul').fadeOut();
+        }
     });
 
-//sliders 
-$(document).ready(function(){
-  $('.slider').slider();
-});
 
 
 });

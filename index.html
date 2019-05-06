@@ -9,8 +9,11 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- meta:vp -->
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<!-- Compiled and minified CSS -->
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
   	<!-- icons of tools -->
   	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   	<!-- css styles -->
@@ -18,233 +21,123 @@
 </head>
 <body>
 	
-	<!--navbar -->
- 	
-    <nav class="navbar-fixed-top">
-    	<div class="nav-wrapper">
-		    <div class="hide-on-large-only" class="hide-on-med-and-up" class="hide-on-med-and-down" class="hide-on-med-only">
-		    	<a  href="#" class="brand-logo center" >Bienvenido</a>
-		    </div>
-		    	<!--
-		      <a href="#!" class="brand-logo left"><i class="material-icons">code</i> </a>
-		      -->
-		      <a href="#" data-activates="mobile-demo" class="button-collapse left"><i class="material-icons">menu</i></a>
-		      <ul class="right hide-on-med-and-down">
-		        <li><a href="#inicio">Inicio</a></li>
-		        <li><a href="#giliagongora">Gilia Góngora</a></li>
-		        <li><a href="#herramientas">Herramientas</a></li>
-		        <li><a href="#portafolio">Portafolio</a></li>
-		        <li><a href="#contacto">Contacto</a></li>
-		      </ul>
-		      
-		      <ul class="side-nav" id="mobile-demo">
-		        <li><a href="#inicio">Inicio</a></li>
-		        <li><a href="#giliagongora">Gilia Góngora</a></li>
-		        <li><a href="#herramientas">Herramientas</a></li>
-		        <li><a href="#portafolio">Portafolio</a></li>
-		        <li><a href="#contacto">Contacto</a></li>
-		      </ul>
-	 	</div>
-	</nav>
-  	
-
-
-  <!-- sección de presentación -->
-  <section class="inicio" id="inicio">
-	<div class="contaier-fluid">
-		<div class="row-fluid">
-			<div class="col m12 s12" id="centerall">
-
-				<img id="logo" src="assets/img/complementos/Gilia-Góngora.png" alt="">
-				<img id="back" src="assets/img/complementos/back1.png" alt=""  class="responsive-img" >
-				<!--
-				<div><p>Gilia Góngora</p></div>	
-				-->
-
+	<header>
+		<!-- menu desktop -->
+		<nav class="top-mobile">
+			<a class="iconBtn" href="#">
+				<div></div><div></div><div></div>
+			</a>
+			<ul>
+				<!-- <li><a href="">Inicio</a></li> -->
+				<li><a href="#sobre-mi">Sobre mi</a></li>
+				<li><a href="#herramientas">Herramientas</a></li>
+				<li><a href="#portafolio">Portafolio</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+		<!-- menu desktop -->
+		<nav class="top-desktop">
+			<ul>
+				<!-- <li><a href="">Inicio</a></li> -->
+				<li><a href="#sobre-mi">Sobre mi</a></li>
+				<li><a href="#herramientas">Herramientas</a></li>
+				<li><a href="#portafolio">Portafolio</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="inicio" id="inicio">
+			<div class="welcome">
+				<h1>Bienvenido</h1>
+				<img src="assets/img/welcome.jpg" alt="Bienvenido">
 			</div>
-		</div>
-	</div>  	
-  </section>
-	<section class="gongora" id="giliagongora">
-	  	 <div class="contaimner">
-	  	 	<div class="row">
-	  	 		<div class="col m12 s12">		  	 		
-		  	 		<h3 class="center-align">Gilia Góngora</h3>
-	  	 		</div>
-	  	 	</div>
-
-
-	  	 	<div class="row">
-	  	 		<div class="col m6 s12">
-	  	 			<div id="fotoPerfil" class="valign-wrapper">
-	  	 				<img id="fotoPerfil" src="assets/img/complementos/perfil.jpg" alt="foto-perfil" class="z-depth-4">
-	  	 			</div>
-	  	 		</div>
-	  	 		<div class="col m6 s12">
-	  	 			<div class="parrafo">
-	  	 				<h3>Desarrolladora Front End Developer Jr. y Diseñadora Gráfica.</h3>
-						<p>Me gusta aprender, investigar, entender, cuestionar y así tomar buenas decisiones con pleno conocimiento.
-						Soy proactiva y empática y me agradan los ambientes donde tengo el espacio para colaborar y apoyar, sobretodo donde prime el respeto y el trabajo en equipo.   
-						Me atrae la tecnología y quiero ser parte de esta gran revolución que va en constante cambio y que te desafía siempre a crear, aprender y actualizar, espero en algún punto de mi vida sumar el tema social y tecnológico.</p>	
-					</div>
-	  	 		</div>
-	  	 	</div>
-	  	 </div>
 	</section>
+	<section class="row sobre-mi" id="sobre-mi">
+		<article class="col-xs-12 col-md-12 ">
+			<img src="assets/img/perfil.jpg" alt="Presentación">
 
-    <section class="herramientas" id="herramientas">
-	  	 <div class="container">
-	  	 	<div class="row">
-	  	 		<div class="col m12 s12">
-	  	 			<h3 class="center-align">Herramientas</h3>
-	  	 		</div>
-	  	 	</div>
-	  	 	<div class="row" id="centrar">
-		  		<div class="col m4 s4 center-align">
-					<a href=""><i class="devicon-html5-plain-wordmark"></i></a>
-		  		</div>
-		  		<div class="col m4 s4 center-align">
-					<a href=""><i class="devicon-css3-plain-wordmark"></i></a>
-		  		</div>
-		  		<div class="col m4 s4 center-align">
-					<a href=""><i class="devicon-javascript-plain"></i></a>
-		  		</div>
-		  	</div>
-	  	 	<div class="row">
-	 	  		<div class="col m4 s4 center-align">
-					<a href=""><i class="devicon-illustrator-line"></i></a>
-		  		</div> 	 	
-		  		<div class="col m4 s4 center-align" >
-					<a href=""><i class="devicon-photoshop-line"></i></a>
-		  		</div>
-		  		<div class="col m4 s4 center-align">
-					<a href=""><i class="devicon-github-plain-wordmark"></i></a>
-		  		</div>
-		  	</div>
-	  	 	<div class="row">
-		  		<div class="col m4 s4 center-align">
-					<a href=""><i class="devicon-git-plain-wordmark"></i></a>
-		  		</div>
-		  		<div class="col m4 s4 center-align">
-					<a href=""><i class="devicon-gulp-plain"></i></a>
-		  		</div>  	 	
-		  		<div class="col m4 s4 center-align" >
-					<a href=""><i class="devicon-jquery-plain-wordmark"></i></a>
-		  		</div>
-		  	</div>
-	  	 	<div class="row">
-		  		<div class="col m4 s4 center-align">
-					<a href=""><i class="devicon-sass-original"></i></a>
-		  		</div>  	 	
-	  	 		<div class="col m4 s4 center-align">
-					<a href=""><i class="devicon-slack-plain-wordmark"></i></a>
-		  		</div>
-		  		<div class="col m4 s4 center-align">
-					<a href=""><i class="devicon-bootstrap-plain-wordmark"></i></a>
-		  		</div>
-		  	</div>
-	  	 	<div class="row">
-		  		<div class="col m4 s4 center-align" >
-					<a href=""><i class="devicon-trello-plain-wordmark"></i></a>
-		  		</div>
-		  	</div>
-	  	 	
-	  	 </div>
- 	</section>
-	<section class="portafolio" id="portafolio">
-		<div class="container">
-			<div class="row">
-				<div class="col m12 s12 ">
-					<div><h3 class="center-align">Portafolio</h3></div>
-			<div class="row">
-				<div class="col m4 s12 center-align" >
-					<div class="space">
-						<a href="https://giliagongora.github.io/freelancer-flexbox/" target="_blank"><img src="assets/img/trabajos/freelancer-flexbox.jpg" alt=""></a>
-						<a href="https://github.com/Giliagongora/freelancer-flexbox" target="_blank"><button type="button" class="btn btn-secondary">DEMO</button></a>
-						<a href="https://giliagongora.github.io/freelancer-flexbox/" target="_blank"><button type="button" class="btn btn-secondary">CODE</button></a>	
-					</div>
-				</div>
-				<div class="col m4 s12 center-align" class="space">
-						<div class="space">
-							<a href="https://github.com/Giliagongora/love-love-panda-desu" target="_blank"><img src="assets/img/trabajos/love-love-panda-desu.jpg" alt=""></a>
-							<a href="https://giliagongora.github.io/love-love-panda-desu/" target="_blank"><button type="button" class="btn btn-secondary">DEMO</button></a>
-							<a href="https://github.com/Giliagongora/love-love-panda-desu" target="_blank"><button type="button" class="btn btn-secondary">CODE</button></a>
-						</div>			
-				</div>
-				<div class="col m4 s12 center-align" class="space">
-						<div class="space">
-							<a href="https://github.com/Giliagongora/responsive-pratt" target="_blank"><img src="assets/img/trabajos/pratts.jpg" alt=""></a>
-							<a href="https://giliagongora.github.io/responsive-pratt/" target="_blank"><button type="button" class="btn btn-secondary">DEMO</button></a>
-							<a href="https://github.com/Giliagongora/responsive-pratt" target="_blank"><button type="button" class="btn btn-secondary">CODE</button></a>
-						</div>			
-				</div>
+			<div class="perfil">
+				<h2>Sobre mí</h2>
+				<p>Me gusta aprender, investigar, entender, cuestionar y así tomar buenas decisiones con pleno conocimiento. Soy proactiva y empática y me agradan los ambientes donde tengo el espacio para colaborar y apoyar, sobretodo donde prime el respeto y el trabajo en equipo. Me atrae la tecnología y quiero ser parte de esta gran revolución que va en constante cambio y que te desafía siempre a crear, aprender y actualizar, espero en algún punto de mi vida sumar el tema social y tecnológico.</p>
 			</div>
-			<div class="row">
-				<div class="col m4 s12 center-align" class="space">
-						<div class="space">
-							<a href="https://giliagongora.github.io/save-the-koala-vol2/" target="_blank"><img src="assets/img/trabajos/save-the-koala-vol2.jpg" alt=""></a>
-							<a href="https://giliagongora.github.io/save-the-koala-vol2/"  target="_blank"><button type="button" class="btn btn-secondary">DEMO</button></a>
-							<a href="https://github.com/Giliagongora/save-the-koala-vol2" target="_blank"><button type="button" class="btn btn-secondary">CODE</button></a>
-						</div>			
-				</div>
-				<div class="col m4 s12 center-align" class="space">
-						<div class="space">
-							<a href="https://github.com/Giliagongora/photolab" target="_blank"><img src="assets/img/trabajos/photolab.jpg" alt=""></a>
-							<a href="https://giliagongora.github.io/photolab/" target="_blank"><button type="button" class="btn btn-secondary">DEMO</button></a>
-							<a href="https://github.com/Giliagongora/photolab"  target="_blank"><button type="button" class="btn btn-secondary">CODE</button></a>	
-						</div>		
-				</div>
-				<div class="col m4 s12 center-align" class="space">
-						<div class="space">
-							<a href="https://giliagongora.github.io/portafolio-sass/" target="_blank"><img src="assets/img/trabajos/portafolio-sass.jpg" alt=""></a>
-							<a href="https://giliagongora.github.io/portafolio-sass/" target="_blank"><button type="button" class="btn btn-secondary">DEMO</button></a>
-							<a href="https://github.com/Giliagongora/portafolio-sass" target="_blank"><button type="button" class="btn btn-secondary">CODE</button></a>	
-						</div>		
-				</div>
-			</div>
-			
-
-		</div>		
+		</article>
 	</section>
-
-	<section class="contacto" id="contacto">
-	<footer class="page-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                	<h3 class="white-text">Contacto</h3>
-                <div id="alinear"><i class="material-icons">mail_outline</i> <p class="grey-text text-lighten-4">   giliagongora.g@gmail.com</p></div>
-                <div id="alinear"><i class="material-icons">phone_android</i><p class="grey-text text-lighten-4">  +56 9 9342 1120</p></div>
-              </div>
-              <div class="col l6 s12">
-                <h3 class="white-text">Links</h3>
-                <ul>
-                  	<li><a class="btn-floating social github" href="https://github.com/Giliagongora" target="_blank"><i class="fa fa-github"></i> Sign in with github</a></li>
-                 	<li><a class="btn-floating social linkedin" href="https://www.linkedin.com/feed/" target="_blank"><i class="fa fa-linkedin"></i> Sign in with linkedin</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright center-align">
-            <div class="container ">
-            © 2017 
-            <a class="grey-text text-lighten-4 right" href="#!"></a>
-            </div>
-          </div>
-    </footer>
-    </section>        
-	
+	<section class="row herramientas" id="herramientas">
+		<article class="col-xs-12 col-md-12">
+			<h2>Herramientas</h2>
+			<ul>
+				<li><i class="devicon-html5-plain-wordmark"></i></li>
+				<li><i class="devicon-css3-plain-wordmark"></i></li>
+				<li><i class="devicon-javascript-plain"></i></li>
+				<li><i class="devicon-illustrator-line"></i></li>
+				<li><i class="devicon-photoshop-line"></i></li>
+				<li><i class="devicon-github-plain-wordmark"></i></li>
+				<li><i class="devicon-git-plain-wordmark"></i></li>
+				<li><i class="devicon-gulp-plain"></i></li>
+				<li><i class="devicon-jquery-plain-wordmark"></i></li>
+				<li><i class="devicon-slack-plain-wordmark"></i></li>
+				<li><i class="devicon-bootstrap-plain-wordmark"></i></li>
+				<li><i class="devicon-trello-plain-wordmark"></i></li>
+				<!-- <li><i class="devicon-foundation-original"></i></li> -->
+				<!-- <li><i class="devicon-git-plain-wordmark"></i></li> -->
+			</ul>
+<!-- 	falta php - fountation - svg (?)		 -->
+		</article>
+	</section>
+	<section class="row portafolio" id="portafolio">
+		<article  class="col-xs-12 col-md-12">
+			<h2>Portafolio</h2>
+			<ul>
+				<li>
+					<a href="https://giliagongora.github.io/freelancer-flexbox/" target="_blank"><img src="assets/img/trabajos/freelancer-flexbox.jpg" alt="Image"></a>
+					<a href="https://giliagongora.github.io/freelancer-flexbox/" target="_blank">DEMO</a>
+					<a href="https://github.com/Giliagongora/freelancer-flexbox " target="_blank">CODE</a>	
+				</li>
+				<li>
+					<a href="https://github.com/Giliagongora/love-love-panda-desu" target="_blank"><img src="assets/img/trabajos/love-love-panda-desu.jpg" alt="Image"></a>
+					<a href="https://giliagongora.github.io/love-love-panda-desu/" target="_blank">DEMO</a>
+					<a href="https://github.com/Giliagongora/love-love-panda-desu" target="_blank">CODE</a>
+				</li>
+				<li>
+					<a href="https://giliagongora.github.io/responsive-pratt/" target="_blank"><img src="assets/img/trabajos/pratts.jpg" alt="Image"></a>
+					<a href="https://giliagongora.github.io/responsive-pratt/" target="_blank">DEMO</a>
+					<a href="https://github.com/Giliagongora/responsive-pratt" target="_blank">CODE</a>
+				</li>
+				<li>
+					<a href="https://giliagongora.github.io/save-the-koala-vol2/" target="_blank"><img src="assets/img/trabajos/save-the-koala-vol2.jpg" alt="Image"></a>
+					<a href="https://giliagongora.github.io/save-the-koala-vol2/"  target="_blank">DEMO</a>
+					<a href="https://github.com/Giliagongora/save-the-koala-vol2" target="_blank">CODE</a>
+				</li>
+				<li>
+					<a href="https://giliagongora.github.io/photolab/" target="_blank"><img src="assets/img/trabajos/photolab.jpg" alt="Image"></a>
+					<a href="https://giliagongora.github.io/photolab/" target="_blank">DEMO</a>
+					<a href="https://github.com/Giliagongora/photolab"  target="_blank">CODE</a>
+				</li>
+				<li>
+					<a href="https://giliagongora.github.io/portafolio-sass/" target="_blank"><img src="assets/img/trabajos/portafolio-sass.jpg" alt="Image"></a>
+					<a href="https://giliagongora.github.io/portafolio-sass/" target="_blank">DEMO</a>
+					<a href="https://github.com/Giliagongora/portafolio-sass" target="_blank">CODE</a>
+				</li>
+			</ul>
+		</article>
+	</section>
+	<footer class="contacto" id="contacto">
+		<ul>
+			<li><a href=""><i class="material-icons">mail_outline</i> giliagongora.g@gmail.com</a></li>
+			<li><a href=""><i class="material-icons">phone_android</i>+56 9 9342 1120</a></li>
+			<li><a href="https://github.com/Giliagongora"><i class="fa fa-github"></i></a></li>
+			<li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+		</ul>
+	</footer>
 
 
   	<!-- jquery -->
-  	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  	<!-- Compiled and minified JavaScript -->
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-     
-
-
-	<!-- Compiled and minified JavaScript 
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>-->
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   	<!-- script js -->
   	<script src="assets/js/main.js"></script>
