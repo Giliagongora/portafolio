@@ -2,15 +2,15 @@
 /*header*/
 
 *{
-	font-family: 'Raleway', sans-serif;
-	padding: 0%;
-	margin: 0%;
+    font-family: 'Raleway', sans-serif;
+    padding: 0%;
+    margin: 0%;
 }
 .row{
     margin:0;
 }
 html, body {
-	height: 100%;
+    height: 100%;
 }
 header{
     position: fixed;
@@ -88,11 +88,12 @@ section.inicio .welcome h1{
     text-align: center;
 }
 section.inicio .welcome img{
-right: -60%;
+    right: 0;
     width: auto;
     position: absolute;
     z-index: -9;
     height: 100%;
+    left: 0
 }
 
 /*sobre mi*/
@@ -123,11 +124,10 @@ section.sobre-mi article{
 /*    width: 100%;*/
     text-align: center;
 }
-section.sobre-mi article img{
-    width:50%;
-    border-radius: 7px;
-    -webkit-filter: contrast(180%);
-    filter: contrast(110%);
+section.sobre-mi article .perfilFoto img{
+        width: auto;
+        position: relative;
+        height: 200px;
 }
 section.sobre-mi article .perfil{
     color: #fff;
@@ -214,121 +214,11 @@ footer.contacto ul li a:hover{
     text-decoration: none;
 } 
 
-/*@media only screen and (min-width: 800px){
-    .row{
-        margin: 0;
-    }header nav.top-mobile{
-        display: none;
-    }header .top-desktop{
-        display: block;
-    }header .top-desktop ul{
-        margin: auto;
-        width: 80%;
-        text-align: right;
-    }header .top-desktop ul li{
-        display: inline-block;
-        padding: 0 1%;
-    }header .top-desktop ul li a{
-        text-decoration: none;
-        line-height: 4;
-        color: #333;
-    }header .top-desktop ul li a:hover{
-        color: #000000;
-    }section.inicio .welcome h1 {
-        font-size: 6rem;
-    }section.inicio .welcome img {
-        position: absolute;
-        z-index: -9;
-        height: auto;
-        width: 100%;
-        right: 0;
-        left: 0;
-        top: -150px;
-        bottom: 0px;
-    }section.sobre-mi {
-        padding: 5% 0 0;
-    }section.sobre-mi article {
-        width: 50%;
-        position: relative;
-        height: 100%;
-    }section.sobre-mi:before{
-        content: " ";
-        width: 80%;
-    }section.sobre-mi article img {
-        width: 30%;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }section.sobre-mi article .perfil {
-        position: absolute;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }section.herramientas {
-        padding: 5% 0 0;
-    }section.portafolio {
-        padding: 4% 0 0;
-    }section.portafolio article ul li{
-        width: 25%;
-        display: inline-block;
-        margin: 1% 1%;
-    }footer.contacto {
-        padding: 2% 0;
-    }footer.contacto ul li {
-        margin: 1% 0;
-    }footer.contacto ul li:nth-child(3), footer.contacto ul li:nth-child(4) {
-        margin: 0 1%;
-    }
-}*/
-@media screen and (min-width:700px){
-    section.inicio{
-        height: 45%;
-    }section.sobre-mi,section.herramientas,section.portafolio{
-        height: 35%;
-    }section.sobre-mi article{
-    /* width: 50%; */
-    position: relative;
-    height: 23%;
-}section.sobre-mi article img {
-    width: 10%;
-}section.sobre-mi article .perfil {
-    width: 80%;
-    left: 0;
-    right: 0;
-    margin: auto;
-}section.inicio .welcome img {
-    right: 0;
-    position: absolute;
-    z-index: -9;
-    height: auto;
-    width: 100%;
-    top: 0;
-    margin: auto;
-    left: 0;
-    bottom: 0;
-}section.sobre-mi {
-    padding: 2% 0 0;
-    background: url(../img/background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}section.sobre-mi article .perfil {
-    width: 100%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    line-height: 1.3;
-}
-}
-@media screen and (min-width: 1200px){
+
+@media screen and (min-width: 700px){
     section.inicio,section.sobre-mi,section.herramientas,section.portafolio{
         height: 100%;
-    }
-    .row{
+    }.row{
         margin: 0;
     }header nav.top-mobile{
         display: none;
@@ -336,7 +226,8 @@ footer.contacto ul li a:hover{
         display: block;
     }header .top-desktop ul{
         margin: auto;
-        width: 80%;
+        width: 100%;
+        padding: 0 180px 0;
         text-align: right;
     }header .top-desktop ul li{
         display: inline-block;
@@ -354,11 +245,12 @@ footer.contacto ul li a:hover{
         position: absolute;
         z-index: -9;
         height: auto;
-        width: 100%;
+        width: 1000px;
         right: 0;
         left: 0;
-        top: -150px;
+        top: 0;
         bottom: 0px;
+        margin: auto;
     }section.sobre-mi {
         padding: 5% 0 0;
     }section.sobre-mi article {
@@ -367,25 +259,22 @@ footer.contacto ul li a:hover{
         height: 100%;
     }section.sobre-mi:before{
         content: " ";
-        width: 80%;
+        width: 1000px;
     }section.sobre-mi article img {
-        width: 15%;
-        position: absolute;
-        top: 10%;
-        left: 0;
-        right: 0;
-        margin: auto;
+        width: auto;
+        position: relative;
+        height: 200px;
     }section.sobre-mi article .perfil {
-        position: absolute;
-        top: 70%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        position: relative;
+        display: block;
+        top: 0;
         width: 60%;
         line-height: 2;
+        margin: auto;
     }section.herramientas {
         padding: 5% 0 0;
-    width: 70%;
-    margin: auto;
+        width: 70%;
+        margin: auto;
     }section.portafolio {
         padding: 4% 0 0;
     }section.portafolio article ul li{
