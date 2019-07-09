@@ -1,20 +1,15 @@
-/*Menu top mobile*/
-
-
-/*$(".iconBtn").click(function(e){
-	e.preventDefault();
-	$(".top-mobile ul").show();
-	$(".top-mobile ul").hide();
-
-});*/
-
 $(document).ready(function(){ 
 
 	$(".iconBtn").click(function(e){
 		e.preventDefault();
-		$(".top-mobile ul").slideToggle(700);
+		$(".top-mobile ul").toggle(500);
 
 	});
+	if(!$(".iconBtn,.top-mobile ul")){
+		e.preventDefault();
+		$('.top-mobile ul').hide();
+
+	};
 /*	$(!$(".top-mobile ul")).blur(function(){
 		$(this).hide();
 	})*/
