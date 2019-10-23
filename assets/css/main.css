@@ -24,11 +24,12 @@ header .top-desktop{
     display: none;
 }
 header nav.top-mobile a div{
-    width: 35px;
-    height: 5px;
+    width: 30px;
+    height: 6px;
     background-color: #333;
-    margin: 6px 0;
+    margin: 4px auto;
     transition: 0.4s;
+    border-radius: 3px;
 }
 header nav.top-mobile ul{
     display: none;
@@ -103,6 +104,8 @@ section.inicio .welcome h1{
     top: 40%;
     bottom: 50%;
     text-align: center;
+    color: #fff;
+    font-size: 55px;
 }
 section.inicio .welcome img{
     right: 0;
@@ -116,7 +119,7 @@ section.inicio .welcome img{
 /*sobre mi*/
 section.sobre-mi{
     height: 100%;
-    padding: 20% 0 0;
+    padding: 10% 0 10%;
     background: url(../img/background.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
@@ -136,15 +139,17 @@ content: " ";
     left: 0;
     right: 0;
     margin: auto;
+    display: block;
 }
 section.sobre-mi article{
 /*    width: 100%;*/
     text-align: center;
 }
 section.sobre-mi article .perfilFoto img{
-        width: auto;
-        position: relative;
-        height: 200px;
+    width: auto;
+    position: relative;
+    height: 200px;
+    border-radius: 10px;
 }
 section.sobre-mi article .perfil{
     color: #fff;
@@ -167,7 +172,7 @@ section.herramientas article ul li{
     margin: 4% 4%;
 }
 section.herramientas article ul li i{
-    font-size: 7rem;
+    font-size: 8rem;
 }
 
 /*portafolio*/
@@ -260,16 +265,16 @@ footer.contacto ul li a:hover{
         color: #000000;
     }section.inicio .welcome h1 {
         font-size: 6rem;
-         animation: bounceIn 2s;
+         animation: bounceIn 4s;
     }section.inicio .welcome img {
         position: absolute;
         z-index: -9;
         height: auto;
-        width: 1000px;
+        width: 100%;
         right: 0;
         left: 0;
-        top: 0;
-        bottom: 0px;
+        top: -40%;
+        bottom: none;
         margin: auto;
     }section.sobre-mi {
         padding: 5% 0 0;
@@ -330,6 +335,8 @@ footer.contacto ul li a:hover{
     }section.herramientas article ul li i {
         font-size: 9rem;
         color: #606a75;
+    }#sobre-mi .perfil h2{
+        color: #fff;
     }h2{
         color: #7d7d7d;
     }section.portafolio article ul li a img:hover {
