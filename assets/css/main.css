@@ -63,7 +63,7 @@ header nav.top-mobile ul{
     bottom: 100%;
     right: 38px;
     text-align: center;
-    width: 130px;
+    width: 150px;
     margin: auto;
     list-style-type: none;
     background: rgba(255, 255, 255, 1);
@@ -74,6 +74,7 @@ header nav.top-mobile ul{
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    padding: 10px 0;
 }
 
 header nav.top-mobile ul li a{
@@ -160,7 +161,7 @@ section.sobre-mi article .perfil p{
 /*herramientas*/
 section.herramientas{
     height: 100%;
-    padding: 20% 0 0;
+    padding: 0 0 0;
 }
 section.herramientas article ul{
     list-style-type: none;
@@ -169,16 +170,15 @@ section.herramientas article ul{
 }
 section.herramientas article ul li{
     display: inline-block;
-    margin: 4% 4%;
+    margin:1%;
 }
 section.herramientas article ul li i{
-    font-size: 8rem;
+    font-size: 7.5rem;
 }
 
 /*portafolio*/
 section.portafolio{
     height: 100%;
-    padding: 20% 0 0;
 }
 section.portafolio ul{
     list-style-type: none;
@@ -236,6 +236,12 @@ footer.contacto ul li a:hover{
     text-decoration: none;
 } 
 
+@media screen and (min-width: 360px){
+    section.sobre-mi article .perfil p {
+        line-height: 1.5;
+        font-size: 1.5rem;
+    }
+}
 
 @media screen and (min-width: 700px){
     header {
@@ -353,8 +359,7 @@ footer.contacto ul li a:hover{
     section.inicio, section.sobre-mi, section.herramientas, section.portafolio {
         height: 50%;
     }section.sobre-mi article .perfil p {
-    padding: 0 5%;
-    line-height: 1.5;
+        padding: 0 5%;
     }
 }
 @media screen and (min-height: 1366px){
