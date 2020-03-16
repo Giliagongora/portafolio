@@ -262,6 +262,7 @@ footer.contacto ul li:nth-child(3),footer.contacto ul li:nth-child(4){
 } 
 footer.contacto ul li a i{
     vertical-align: middle;
+    font-size: 30px;
 }
 footer.contacto ul li a{
     color: #c1c1c1;
