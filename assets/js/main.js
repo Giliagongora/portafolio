@@ -10,13 +10,6 @@ $(document).ready(function(){
 		$('.top-mobile ul').hide();
 
 	};
-/*	$(!$(".top-mobile ul")).blur(function(){
-		$(this).hide();
-	})*/
-/*	$(!$(".top-mobile ul li")).blur(function(){
-		$(this).hide();
-	});*/
-
     $(window).scroll(function(){                          
         if ($(this).scrollTop()) {
             $('.top-mobile ul').fadeOut();
